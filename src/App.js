@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'http://127.0.0.1:5000/tasks';
+const API_URL = 'https://task-tracker-xywd.onrender.com/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
